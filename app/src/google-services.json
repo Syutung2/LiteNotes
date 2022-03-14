@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1091411150371",
+    "project_id": "dddee-9147d",
+    "storage_bucket": "dddee-9147d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091411150371:android:a0901ee438eb90046a5396",
+        "android_client_info": {
+          "package_name": "cn.syutung.litenotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091411150371-c9crsf6q2guivqu813itbku17upm68cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsh8Lgb2JndVoH-WAxG0qvw48U_W73M20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091411150371-c9crsf6q2guivqu813itbku17upm68cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

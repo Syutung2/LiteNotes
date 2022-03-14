@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.LiteNotes.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s1"
+
+    android:theme="@style/Theme.LiteNotes.AppWidgetContainer">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="40px"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="距离"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/widgets_text"
+            android:text="2023考研"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/widgets_date"
+            android:text="还有 288 天"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/widgets_now"
+            android:text="2022-12.24"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

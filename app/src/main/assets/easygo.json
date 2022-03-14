@@ -1,0 +1,35 @@
+{
+  "easyGoVersion": "1.0",
+  "client": "cn.syutung.litenotes",
+  "logicEntities": [
+    {
+      "head": {
+        "function": "magicwindow",
+        "required": "true"
+      },
+      "body": {
+        "mode": "1",
+        "defaultDualActivities":
+          {
+            "mainPages": "cn.syutung.litenotes.MainActivity",
+            "relatePage": "*"
+          } ,
+        "transActivities": [
+          "cn.syutung.litenotes.MainActivity"
+        ],
+
+        "Activities": [
+          {
+            "name": "cn.syutung.litenotes.MainActivity",
+            "defaultFullScreen": "true"
+          }
+
+        ],
+        "UX": {
+          "supportRotationUxCompat": "true",
+          "isDraggable": "true"
+        }
+      }
+    }
+  ]
+}
